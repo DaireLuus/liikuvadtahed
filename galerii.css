@@ -1,0 +1,24 @@
+body {
+	background-color: #AAAAAA;
+}
+
+.scene {
+    width: 600px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.scene * {
+    position: absolute;
+}
+
+.pic2 {
+	opacity: 0;
+	transition: opacity 1s ease;
+}
+
+canvas {
+	border: 1px solid black;
+	background-color: white;
+}
